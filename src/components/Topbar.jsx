@@ -1,15 +1,12 @@
 import { AiFillPhone, AiOutlineClockCircle } from "react-icons/ai";
-import { BsChatSquareDots } from "react-icons/bs";
 
 export const Topbar = () => {
   return (
     <div className="flex justify-between items-center px-4 py-2">
       <div className="flex items-center ">
-        <BsChatSquareDots
-          size={28}
-          className="text-[var(--primary-dark)] mr-1"
-        />
-        <h1 className="text-[var(--primary-dark)] cursor-pointer">TRIP.ch</h1>
+        <h1 className="text-[var(--primary-dark)] cursor-pointer sm:ml-3">
+          TRIP.ch
+        </h1>
       </div>
       <div className="flex">
         <div className="hidden md:flex items-center px-8">
