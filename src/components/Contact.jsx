@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="contact" className="max-w-[1140px] m-auto w-full p-4 py-16">
-      <h2 className="text-center text-[var(--primary-dark)]">
+      <h2 className="text-center text-lg font-bold text-[var(--primary-dark)]">
         Send us a message
       </h2>
-      <p className="text-center text-[var(--primary-dark)] py-2">
+      <p className="text-center text-md font-semibold text-[var(--primary-dark)] py-2">
         We&apos;re standing by!
       </p>
       <div className="grid md:grid-cols-2">
